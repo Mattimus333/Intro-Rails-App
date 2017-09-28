@@ -67,9 +67,9 @@ class UsersController < ApplicationController
       @user = User.find(params[:id])
     end
 
-    def set_micropost
-      @micropost = @user.microposts.first
-    end
+    # def set_micropost
+    #   @micropost = @user.microposts.first
+    # end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
