@@ -68,7 +68,7 @@ class UsersController < ApplicationController
     end
 
     def set_micropost
-      if @user.micropost
+      if @user.microposts
         @micropost = @user.microposts.first
       end
     end
